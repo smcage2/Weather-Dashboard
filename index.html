@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+        integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/style.css">
+
+        <title>Weather Dashboard</title>
+    </head>
+
+    <body>
+        <header class="container">
+            <h1 style="text-align:center; margin-top: 10px;" >Weather Dashboard</h1>
+    
+            <!-- Search Container  -->
+            <div class="row">
+                <form id="zipsearchform" class="ten columns offset-by-one">
+                    <div class="three columns offset-by-one">
+                        <h5>Enter City:</h5>
+                    </div>
+                    <div class="five columns">
+                        <input class="u-full-width" type="text" id="zipcodeInput">
+                    </div>
+                    <div class="three columns">
+                        <input class="button-primary" type="submit" value="Search">
+                    </div>
+                </form>
+            </div>
+        </header>
+
+   
+        <section class="container" style="margin-top: 50px;">
+        <!-- Day 1 -->
+            <div class="row">
+                <div class="two columns offset-by-one">
+                    <h4 class="text-container">Day 1</h4>
+                    <div id="day1" class="image-container"></div>
+                </div>
+    
+        <!-- Day 2 -->
+                <div class="two columns offset-by-half">
+                    <h4 class="text-container">Day 2</h4>
+                    <div id="day2" class="image-container"></div>
+                </div>
+
+        <!-- Day 3 -->
+                <div class="two columns offset-by-half">
+                    <h4 class="text-container">Day 3</h4>
+                    <div id="day3" class="image-container"></div>
+                </div>
+
+        <!-- Day 4 -->
+                <div class="two columns offset-by-half">
+                    <h4 class="text-container">Day 4</h4>
+                    <div id="day4" class="image-container"></div>
+                </div>
+        
+        <!-- Day 5 -->
+                <div class="two columns offset-by-half">
+                    <h4 class="text-container">Day 5</h4>
+                    <div id="day5" class="image-container"></div>
+                </div>
+            </div>        
+
+        </section>
+
+        <footer>
+            <div class="eight columns offset-by-two">
+                <h4 class="text-container">Search History</h4>
+                <div id="searchHistory"></div>
+            </div>
+        </footer>
+
+        <script scr="./assets/script.js"></script>
+    </body>
+</html>   
