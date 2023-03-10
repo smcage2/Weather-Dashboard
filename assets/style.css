@@ -1,0 +1,44 @@
+header{
+    background-color: white;
+    border: solid;
+    border-color: lightcoral;
+    border-radius: 10px;
+  }
+
+body{
+    background-color: whitesmoke;
+  }
+
+section p{
+    text-align: center;
+}
+
+input{
+    font-size: larger;
+}
+
+.image-container {
+    background-color: white;
+    border: solid;
+    border-color: lightcoral;
+    border-radius: 10px;
+    max-width: 455px;
+    min-height: 55px;
+}
+
+.image-container img {
+    width: 100%;
+    background-color: white;
+}
+
+.text-container {
+    background-color: white;
+    text-align: center;
+    border: solid;
+    border-color: lightcoral;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 50px;
+}
