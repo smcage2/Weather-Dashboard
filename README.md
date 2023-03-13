@@ -46,7 +46,7 @@ https://smcage2.github.io/Weather-Dashboard/
 Review the website using the above link.
 
 ## Credits
-TBD
+https://github.com/CodeExplainedRepo/Weather-App-JavaScript/blob/master/app.js
 
 ## License
 Please refer to LICENSE in repo.
