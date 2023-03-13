@@ -24,6 +24,7 @@ input{
     border-radius: 10px;
     max-width: 455px;
     min-height: 55px;
+    margin-bottom: 25px;
 }
 
 .image-container img {
@@ -40,5 +41,5 @@ input{
 }
 
 footer{
-    margin-top: 50px;
+    margin-top: 25px;
 }

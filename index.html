@@ -24,7 +24,7 @@
                         <h5>Enter City:</h5>
                     </div>
                     <div class="five columns">
-                        <input class="u-full-width" type="text" id="zipcodeInput">
+                        <input class="u-full-width" type="text" id="cityName">
                     </div>
                     <div class="three columns">
                         <input class="button-primary" type="submit" value="Search">
@@ -33,10 +33,19 @@
             </div>
         </header>
 
+        <section class="container" style="margin-top: 25px;">
+            <div class="row text-container">
+                <h4  style="margin-bottom: 25px">Current Forecast </h4>
+                <div class="two columns offset-by-one">
+                    <p class="currentDay"></p>
+                </div>
+            </div>
+        </section>
    
         <section class="container" style="margin-top: 50px;">
         <!-- Day 1 -->
-            <div class="row">
+            <div class="row text-container">
+                <h4  style="margin-bottom: 25px">Future Forecast </h4>
                 <div class="two columns offset-by-one">
                     <h4 class="text-container">Day 1</h4>
                     <div id="day1" class="image-container"></div>
@@ -75,7 +84,8 @@
                 <div id="searchHistory"></div>
             </div>
         </footer>
-
+       
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script scr="./assets/script.js"></script>
     </body>
 </html>   
